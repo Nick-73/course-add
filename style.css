@@ -1,0 +1,184 @@
+:root {
+    --color1: #05b1b1;
+    --color2: #52339a;
+}
+h5 {
+    margin-top: revert;
+}
+header, footer, section {
+    padding: 100px 0;
+}
+header {
+    padding: 200px 0;
+}
+header, footer {
+    background: url(../img/pattern.png), var(--color1);
+    background: url(../img/pattern.png), -moz-linear-gradient(left,  var(--color1) 0%, var(--color2) 100%);
+    background: url(../img/pattern.png), -webkit-linear-gradient(left,  var(--color1) 0%,var(--color2) 100%);
+    background: url(../img/pattern.png), linear-gradient(to right,  var(--color1) 0%,var(--color2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr=var(--color2),GradientType=1 );
+    background-size: contain;
+}
+.itd_play {
+    background-color: var(--color1);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto;
+    transition: all 0.2s ease;
+}
+.itd_play:hover {
+    background-color: var(--color2);
+}
+.itd_triangle {
+    margin-right: -3px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent var(--bs-white);
+}
+.btn-itd {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 8px 30px;
+    color: var(--bs-white);
+    background-color: var(--color2);
+}
+.btn-itd:hover {
+    color: var(--bs-white);
+    background-color: var(--color1);
+}
+.color-about {
+    color: var(--color1);
+}
+.bg1 {
+    background-color: var(--color1);
+}
+.bg2 {
+    background-color: var(--color2);
+}
+
+/* О курсе start */
+.about-course, .course-plan {
+    background-color: #eee;
+}
+.about-course h2 {
+    color: var(--color1);
+}
+.about-circle i {
+    font-size: 25px;
+    color: var(--color2);
+}
+.about-circle {
+    border: 3px solid var(--color2);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+}
+.line {
+    width: 100px;
+    height: 3px;
+    background: var(--color1);
+    margin: 0 auto 15px;
+} 
+
+/* О курсе */
+ .about {
+    background-color: #eee;
+}
+.about i {
+    font-size: 25px;
+    color: var(--color2);
+}
+.about-circle {
+    margin: 0 auto -15px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--color2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 30px auto;
+}
+/* Курс для тех, кто */
+.course-for h5 {
+    padding: 50px;
+    border: 3px solid var(--color1);
+} 
+.course-for h2 {
+    color: var(--color2);
+}
+.about-author h2{
+    color: var(--color1);
+}
+.flex-end{
+    display: flex;
+    align-items: flex-end;
+}
+.review{
+    background: #eee;
+}
+.review h2{
+    color: var(--color2);
+}
+.review .line{
+    width: 100px;
+    height: 3px;
+    background-color: var(--color2);
+    margin: 30px auto;
+}
+.review img{
+    border-radius: 75px;
+    border: var(--color1) solid 3px;
+}
+.course-of h2{
+    color: var(--color1);
+}
+.course-of .textimg{
+    display: flex;
+}
+.course-of img{
+    width: 100%;
+    height: 100%;
+}
+.course-of button{
+    background: var(--color2);
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    height: 50px;
+}
+.course-of .knopka{
+    width: 100%;
+    text-align: center;
+}
+.footersimg{
+    margin: 3px;
+    width: 60px;
+    height: 60px;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .row{
+    justify-content: center;
+}
